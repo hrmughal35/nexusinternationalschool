@@ -9,6 +9,7 @@ import { useState } from "react";
 
 import { siteConfig } from "@/data/site";
 import { MagneticButton } from "@/components/ui/magnetic-button";
+import { withBasePath } from "@/lib/asset-path";
 
 export function Navbar() {
   const pathname = usePathname();
@@ -20,7 +21,7 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
           <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-white ring-1 ring-slate-200/90 overflow-hidden shadow-sm">
             <Image
-              src="/nexus-logo-tight.png"
+              src={withBasePath("/nexus-logo-tight.png")}
               alt="Nexus International School logo"
               width={44}
               height={44}

@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { siteConfig } from "@/data/site";
+import { withBasePath } from "@/lib/asset-path";
 
 const socialLinks = [
   { label: "Instagram", href: "https://instagram.com", icon: Sparkles },
@@ -17,7 +18,7 @@ export function Footer() {
         <div>
           <div className="mb-4">
             <Image
-              src="/nexus-logo-tight.png"
+              src={withBasePath("/nexus-logo-tight.png")}
               alt="Nexus International School crest logo"
               width={68}
               height={68}
