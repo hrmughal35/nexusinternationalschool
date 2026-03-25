@@ -49,9 +49,9 @@ export const metadata: Metadata = {
     description: siteConfig.description,
   },
   icons: {
-    icon: `${basePath}/favicon.ico`,
-    shortcut: `${basePath}/favicon.ico`,
-    apple: `${basePath}/nexus-logo-tight.png`,
+    icon: `${basePath}/icon.png`,
+    shortcut: `${basePath}/icon.png`,
+    apple: `${basePath}/apple-icon.png`,
   },
 };
 
