@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0b1d3a;
+  --nexus-navy: #0b1d3a;
+  --nexus-gold: #d4af37;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-manrope);
+  --font-display: var(--font-cormorant);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #ffffff;
+  color: var(--foreground);
+  font-family: var(--font-manrope), sans-serif;
+  overflow-x: hidden;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  transition:
+    color 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease,
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.25);
+  color: #0b1d3a;
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 2px solid #ffffff;
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(212, 175, 55, 0.95), rgba(11, 29, 58, 0.85));
+}
+
+.site-shell {
+  position: relative;
+  min-height: 100vh;
+}
+
+.site-shell::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display), serif;
+  letter-spacing: -0.04em;
+}
+
+iframe {
+  display: block;
+}
