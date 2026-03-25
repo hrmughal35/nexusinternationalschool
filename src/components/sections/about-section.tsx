@@ -61,8 +61,8 @@ export function AboutSection() {
             <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-[0_14px_40px_rgba(15,23,42,0.05)]">
               <div className="relative h-[320px]">
                 <Image
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1200&q=80"
-                  alt="Principal of Nexus International School"
+                  src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80"
+                  alt="Principal at Nexus International School"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 40vw"
@@ -81,7 +81,7 @@ export function AboutSection() {
                   contribute meaningfully to the world.
                 </p>
                 <p className="mt-5 text-sm font-semibold text-[#0B1D3A]">
-                  Dr. Eliana Ward
+                  Ms. Sana Ahmed
                 </p>
                 <p className="text-sm text-[#0B1D3A]/65">Founding Principal</p>
               </div>

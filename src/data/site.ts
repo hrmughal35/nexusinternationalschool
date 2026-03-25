@@ -4,10 +4,10 @@ export const siteConfig = {
   description:
     "A premium future-ready school experience blending academic excellence, creativity, technology, and global citizenship.",
   url: "https://nexus-school.example",
-  phone: "+971 4 555 0188",
-  email: "admissions@nexus-school.example",
-  address: "88 Horizon Crescent, Education City",
-  whatsappLink: "https://wa.me/97145550188",
+  phone: "+92 300 1234567",
+  email: "admissions@nexusinternationalschool.pk",
+  address: "Garden Town Phase 2 Block H, Gujranwala",
+  whatsappLink: "https://wa.me/923001234567",
   navLinks: [
     { label: "About", href: "/#about" },
     { label: "Academics", href: "/#programs" },
@@ -102,48 +102,48 @@ export const feeHighlights = [
 
 export const testimonials = [
   {
-    name: "Amina Rahman",
+    name: "Ayesha Khalid",
     role: "Parent of Year 4 Student",
     quote:
-      "The first visit changed everything for us. Nexus feels like a global learning sanctuary, not just a school.",
+      "Our first visit gave us full confidence. Nexus feels modern, caring, and exactly the environment we wanted for our daughter.",
   },
   {
-    name: "Daniel Hughes",
+    name: "Usman Tariq",
     role: "Parent of O-Level Student",
     quote:
-      "From academics to mentorship and confidence-building, the school has elevated my child's ambition beautifully.",
+      "From academics to mentorship, the school has improved my son's confidence and future planning in a very positive way.",
   },
   {
-    name: "Sara Alvi",
+    name: "Maria Javed",
     role: "Parent of Early Years Student",
     quote:
-      "The warmth, design, and attention to every detail made us feel instantly certain this was the right place.",
+      "The welcoming environment and teacher attention made us feel this was the right place for our child from day one.",
   },
 ] as const;
 
 export const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80",
-    alt: "Students collaborating in a futuristic classroom",
+    src: "https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?auto=format&fit=crop&w=1200&q=80",
+    alt: "Pakistani students collaborating in a modern classroom",
   },
   {
-    src: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80",
-    alt: "Students celebrating a campus event",
+    src: "https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=900&q=80",
+    alt: "School assembly and student participation",
   },
   {
-    src: "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=1000&q=80",
-    alt: "School sports and wellness facilities",
+    src: "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1000&q=80",
+    alt: "Students in sports and physical training activities",
   },
   {
-    src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
-    alt: "Innovation lab and technology learning session",
+    src: "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&w=1200&q=80",
+    alt: "Technology lab session with school students",
   },
   {
-    src: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=900&q=80",
-    alt: "Students engaged in creative arts",
+    src: "https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=900&q=80",
+    alt: "Pakistani students engaged in creative arts",
   },
   {
-    src: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1000&q=80",
-    alt: "Outdoor learning and community culture",
+    src: "https://images.unsplash.com/photo-1607453998774-d533f65dac99?auto=format&fit=crop&w=1000&q=80",
+    alt: "Outdoor learning and community culture on campus",
   },
 ] as const;
