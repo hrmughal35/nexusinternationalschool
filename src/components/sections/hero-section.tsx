@@ -5,7 +5,7 @@ import { MagneticButton } from "@/components/ui/magnetic-button";
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen overflow-hidden bg-white px-4 pt-16 pb-10 sm:px-6 sm:pt-20 lg:px-10 lg:pt-28">
+    <section className="relative min-h-screen overflow-hidden bg-white px-4 pt-20 pb-10 sm:px-6 sm:pt-20 lg:px-10 lg:pt-28">
       <div className="relative mx-auto grid max-w-7xl items-start gap-8 lg:min-h-[82vh] lg:grid-cols-[0.92fr_1.08fr]">
         <div className="order-2 pt-4 lg:order-1 lg:pt-10">
           <div className="inline-flex items-center gap-2 rounded-full border border-[#D4AF37]/45 bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-[#D4AF37]">
@@ -39,8 +39,8 @@ export function HeroSection() {
           </div>
         </div>
 
-        <div className="order-1 relative min-h-[20rem] lg:order-2 lg:min-h-[38rem]">
-          <div className="relative mt-1 mx-auto h-[24rem] w-full max-w-[26rem] sm:h-[32rem] sm:max-w-[32rem] lg:mt-6 lg:mr-0 lg:h-[40rem] lg:max-w-[46rem]">
+        <div className="order-1 relative min-h-[20rem] pt-6 sm:pt-2 lg:order-2 lg:min-h-[38rem] lg:pt-0">
+          <div className="relative mt-0 mx-auto h-[24rem] w-full max-w-[26rem] sm:h-[32rem] sm:max-w-[32rem] lg:mt-6 lg:mr-0 lg:h-[40rem] lg:max-w-[46rem]">
             <Image
               src="https://cdn.prod.website-files.com/65b27a2489c688f4cf4d8e5b/65b27a2489c688f4cf4d8e7e_kid-p-800.png"
               alt="Premium illustrated Nexus student"
